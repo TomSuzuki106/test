@@ -1,0 +1,390 @@
+#!/bin/sh
+mkdir eg-icchoda-high
+cd eg-icchoda-high
+rclone copy gdrive:fieldcam2020/エコグリーン-一丁田-15-高所 .
+cd ..
+
+mkdir eg-icchoda-low
+cd eg-icchoda-low
+rclone copy gdrive:fieldcam2020/エコグリーン-一丁田-53-低所 .
+cd ..
+
+mkdir eg-sakaue-high
+cd eg-sakaue-high
+rclone copy gdrive:fieldcam2020/"エコグリーン-坂上(大)-04-高所" .
+cd ..
+
+
+mkdir eg-sakaue-low
+cd eg-sakaue-low
+rclone copy gdrive:fieldcam2020/"エコグリーン-坂上(大)-51-低所" .
+cd ..
+
+mkdir eg-katsutahara-high
+cd eg-katsutahara-high
+rclone copy gdrive:fieldcam2020/エコグリーン-勝田原1-33-高所 .
+cd ..
+
+
+mkdir eg-katsutahara-low
+cd eg-katsutahara-low
+rclone copy gdrive:fieldcam2020/エコグリーン-勝田原1-34-低所 .
+cd ..
+
+
+mkdir eg-ohata2-low
+cd eg-ohata2-low
+rclone copy gdrive:fieldcam2020/エコグリーン-大旗2-11-低所 .
+cd ..
+
+
+mkdir eg-ohata2-high
+cd eg-ohata2-high
+rclone copy gdrive:fieldcam2020/エコグリーン-大旗2-39-高所 .
+cd ..
+
+mkdir eg-tsushimasan-high
+cd eg-tsushimasan-high
+rclone copy gdrive:fieldcam2020/エコグリーン-津島さん-19-高所 .
+cd ..
+
+mkdir eg-tsushimasan-low
+cd eg-tsushimasan-low
+rclone copy gdrive:fieldcam2020/エコグリーン-津島さん-54-低所 .
+cd ..
+
+mkdir eg-tochobo-high
+cd eg-tochobo-high
+rclone copy gdrive:fieldcam2020/"エコグリーン-登丁防(片浜近い)-44-高所" .
+cd ..
+
+mkdir eg-tochobo-low
+cd eg-tochobo-low
+rclone copy gdrive:fieldcam2020/"エコグリーン-登丁防(片浜近い)-42-低所" .
+cd ..
+
+mkdir eg-nitanbu-high
+cd eg-nitanbu-high
+rclone copy gdrive:fieldcam2020/エコグリーン-二反歩-35-高所 .
+cd ..
+
+mkdir eg-nitanbu-low
+cd eg-nitanbu-low
+rclone copy gdrive:fieldcam2020/エコグリーン-二反歩-38-低所 .
+cd ..
+
+mkdir eg-tochobo-low
+cd eg-tochobo-low
+rclone copy gdrive:fieldcam2020/"エコグリーン-登丁防(片浜近い)-42-低所" .
+cd ..
+
+mkdir eg-tochobo-high
+cd eg-tochobo-high
+rclone copy gdrive:fieldcam2020/"エコグリーン-登丁防(片浜近い)-42-高所" .
+cd ..
+
+mkdir eg-hikojo-high
+cd eg-hikojo-high
+rclone copy gdrive:fieldcam2020/エコグリーン-飛行場-14-高所 .
+cd ..
+
+mkdir eg-hikojo-low
+cd eg-hikojo-low
+rclone copy gdrive:fieldcam2020/エコグリーン-飛行場-37-低所 .
+cd ..
+
+mkdir eg-fusekata-high
+cd eg-fusekata-high
+rclone copy gdrive:fieldcam2020/エコグリーン-伏方B-03-高所 .
+cd ..
+
+mkdir eg-fusekata-low
+cd eg-fusekata-low
+rclone copy gdrive:fieldcam2020/エコグリーン-伏方B-50-低所 .
+cd ..
+
+mkdir harada-m4.5-high
+cd harada-m4.5-high
+rclone copy gdrive:fieldcam2020/ハラダ-M4.5-16-高所 .
+cd ..
+
+mkdir harada-m4.5-high
+cd harada-m4.5-high
+rclone copy gdrive:fieldcam2020/ハラダ-M4.5-16-高所 .
+cd ..
+
+mkdir harada-m4.5-low
+cd harada-m4.5-low
+rclone copy gdrive:fieldcam2020/ハラダ-M4.5-61-低所 .
+cd ..
+
+mkdir harada-m4.5-low
+cd harada-m4.5-low
+rclone copy gdrive:fieldcam2020/ハラダ-M4.5-61-低所 .
+cd ..
+
+mkdir harada-s4.5-AI-high
+cd harada-s4.5-AI-high
+rclone copy gdrive:fieldcam2020/ハラダ-S4.5-006-高所 .
+cd ..
+
+mkdir harada-s4.5-high
+cd harada-s4.5-high
+rclone copy gdrive:fieldcam2020/ハラダ-S4.5-20-高所 .
+cd ..
+
+mkdir harada-s4.5-low
+cd harada-s4.5-low
+rclone copy gdrive:fieldcam2020/ハラダ-S4.5-62-低所 .
+cd ..
+
+mkdir harada-tenisukita-high
+cd harada-tenisukita-high
+rclone copy gdrive:fieldcam2020/ハラダ-テニス北-05-高所 .
+cd ..
+
+
+mkdir harada-tenisukita-low
+cd harada-tenisukita-low
+rclone copy gdrive:fieldcam2020/ハラダ-テニス北-55-低所 .
+cd ..
+
+mkdir harada-baranooka-high
+cd harada-baranooka-high
+rclone copy gdrive:fieldcam2020/ハラダ-バラの丘3-57-高所 .
+cd ..
+
+mkdir harada-baranooka-low
+cd harada-baranooka-low
+rclone copy gdrive:fieldcam2020/ハラダ-バラの丘3-58-低所 .
+cd ..
+
+mkdir harada-andaue-high
+cd harada-andaue-high
+rclone copy gdrive:fieldcam2020/ハラダ-安田上-18-高所 .
+cd ..
+
+mkdir harada-andaue-low
+cd harada-andaue-low
+rclone copy gdrive:fieldcam2020/ハラダ-安田上-59-低所 .
+cd ..
+
+mkdir harada-sasama-high
+cd harada-sasama-high
+rclone copy gdrive:fieldcam2020/ハラダ-笹間-02-高所 .
+cd ..
+
+mkdir harada-sasama-low
+cd harada-sasama-low
+rclone copy gdrive:fieldcam2020/ハラダ-笹間-56-低所 .
+cd ..
+
+mkdir harada-sankakuten-low
+cd harada-sankakuten-low
+rclone copy gdrive:fieldcam2020/ハラダ-三角点-69-低所 .
+cd ..
+
+mkdir harada-haruyama-high
+cd harada-haruyama-high
+rclone copy gdrive:fieldcam2020/"ハラダ-春山(富士)-63-高所" .
+cd ..
+
+mkdir harada-haruyama-low
+cd harada-haruyama-low
+rclone copy gdrive:fieldcam2020/"ハラダ-春山(富士)-64-低所" .
+cd ..
+
+mkdir harada-nitashita-low
+cd harada-nitashita-low
+rclone copy gdrive:fieldcam2020/ハラダ-仁田下1-67-低所 .
+cd ..
+
+mkdir harada-nitaue-high
+cd harada-nitaue-high
+rclone copy gdrive:fieldcam2020/ハラダ-仁田上1-17-高所 .
+cd ..
+
+mkdir harada-nitaue-high
+cd harada-nitaue-high
+rclone copy gdrive:fieldcam2020/ハラダ-仁田上1-17-高所 .
+cd ..
+
+mkdir harada-nitaue-low
+cd harada-nitaue-low
+rclone copy gdrive:fieldcam2020/ハラダ-仁田上1-60-低所 .
+cd ..
+
+mkdir harada-sugita-high
+cd harada-sugita-high
+rclone copy gdrive:fieldcam2020/"ハラダ-杉田(富士)-65-高所" .
+cd ..
+
+mkdir harada-sugita-low
+cd harada-sugita-low
+rclone copy gdrive:fieldcam2020/"ハラダ-杉田(富士)-66-低所" .
+cd ..
+
+mkdir harada-sugita-low
+cd harada-sugita-low
+rclone copy gdrive:fieldcam2020/"ハラダ-杉田(富士)-66-低所" .
+cd ..
+
+mkdir cham-tanakake-high
+cd cham-tanakake-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-タナカケ-12-高所 .
+cd ..
+
+mkdir cham-tanakake-low
+cd cham-tanakake-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-タナカケ-47-低所 .
+cd ..
+
+mkdir cham-okuhara-high
+cd cham-okuhara-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-奥原-49-高所 .
+cd ..
+
+mkdir cham-okuhara-low
+cd cham-okuhara-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-奥原-52-低所 .
+cd ..
+
+mkdir cham-takahatanimai-high
+cd cham-takahatanimai-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-高畑2枚-13-高所 .
+cd ..
+
+mkdir cham-takahatanimai-low
+cd cham-takahatanimai-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-高畑2枚-48-低所 .
+cd ..
+
+mkdir cham-ogasa-high
+cd cham-ogasa-high
+rclone copy gdrive:fieldcam2020/"茶夢茶夢-小笠(祐)-29-高所" .
+cd ..
+
+mkdir cham-ogasa-low
+cd cham-ogasa-low
+rclone copy gdrive:fieldcam2020/"茶夢茶夢-小笠(祐)-36-低所" .
+cd ..
+
+mkdir cham-arayaminami-high
+cd cham-arayaminami-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-新谷南さえあかり-01-高所 .
+cd ..
+
+mkdir cham-arayaminami-low
+cd cham-arayaminami-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-新谷南さえあかり-24-低所 .
+cd ..
+
+mkdir cham-sokomae-low
+cd cham-sokomae-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-倉庫前-30-低所 .
+cd ..
+
+mkdir cham-sokomae-high
+cd cham-sokomae-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-倉庫前-31-高所 .
+cd ..
+
+mkdir cham-daikonohata-low
+cd cham-daikonohata-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-大根大畑-25-低所 .
+cd ..
+
+mkdir cham-daikonohata-high
+cd cham-daikonohata-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-大根大畑-26-高所 .
+cd ..
+
+mkdir cham-nakagomai-low
+cd cham-nakagomai-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-中5枚-06-低所 .
+cd ..
+
+mkdir cham-nakagomai-high
+cd cham-nakagomai-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-中5枚-08-高所 .
+cd ..
+
+mkdir cham-asahina90-high
+cd cham-asahina90-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-朝比奈90-10-高所 .
+cd ..
+
+mkdir cham-asahina90-low
+cd cham-asahina90-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-朝比奈90-46-低所 .
+cd ..
+
+mkdir cham-nagaotomita-high
+cd cham-nagaotomita-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-長尾富田-27-高所 .
+cd ..
+
+mkdir cham-nagaotomita-low
+cd cham-nagaotomita-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-長尾富田-28-低所 .
+cd ..
+
+mkdir cham-torikita-low
+cd cham-torikita-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-鳥居原北1-07-低所 .
+cd ..
+
+mkdir cham-torikita-high
+cd cham-torikita-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-鳥居原北1-21-高所 .
+cd ..
+
+mkdir cham-tettoyoko-high
+cd cham-tettoyoko-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-鉄塔横-22-高所 .
+cd ..
+
+mkdir cham-tettoyoko-low
+cd cham-tettoyoko-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-鉄塔横-41-低所 .
+cd ..
+
+mkdir cham-shirahamatsuyuhikari-high
+cd cham-shirahamatsuyuhikari-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-白浜つゆひかり-23-高所 .
+cd ..
+
+mkdir cham-shirahamatsuyuhikari-low
+cd cham-shirahamatsuyuhikari-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-白浜つゆひかり-43-低所 .
+cd ..
+
+mkdir cham-hikioku-high
+cd cham-hikioku-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-比木奥-09-高所 .
+cd ..
+
+mkdir cham-hikioku-low
+cd cham-hikioku-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-比木奥-45-低所 .
+cd ..
+
+mkdir cham-kazuoyashiki-high
+cd cham-kazuoyashiki-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-和男屋敷-32-高所 .
+cd ..
+
+mkdir cham-kazuoyashiki-low
+cd cham-kazuoyashiki-low
+rclone copy gdrive:fieldcam2020/茶夢茶夢-和男屋敷-40-低所 .
+cd ..
+
+mkdir cham-ishibatake-high
+cd cham-ishibatake-high
+rclone copy gdrive:fieldcam2020/茶夢茶夢-石畑-68-高所 .
+cd ..
+
+
+
+
+
